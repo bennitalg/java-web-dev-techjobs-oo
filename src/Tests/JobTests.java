@@ -18,6 +18,7 @@ public class JobTests {
     private Job testJob2;
     private Job testJob3;
     private Job testJob4;
+    private Job myTestJob;
 
     @Before
     public void creatingObjects(){
@@ -52,5 +53,11 @@ public class JobTests {
 //        System.out.println(testJob4.getId());
     }
 
+    @Test
+    public void testToString(){
+        myTestJob = new Job("IT Auditor", new Employer("First Bank"), new Location("Tampa"), new PositionType("Audit"), new CoreCompetency("Team Building"));
+        System.out.println(myTestJob.toString());
+
+    }
 
 }

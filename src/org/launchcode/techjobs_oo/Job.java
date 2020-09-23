@@ -97,4 +97,13 @@ public class Job {
     public int getId() {
         return id;
     }
+
+    public String toString(){
+        return "ID:  _______ " + this.id +
+        "/nName: _______ " + this.name +
+        "/nEmployer: _______" +this.employer +
+        "/nLocation: _______" + this.location +
+        "/nPosition Type: _______ " + this.positionType +
+        "/nCore Competency: _______ " + this.coreCompetency;
+    }
 }
