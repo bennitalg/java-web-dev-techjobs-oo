@@ -99,11 +99,11 @@ public class Job {
     }
 
     public String toString(){
-        return "ID:  _______ " + this.id +
-        "/nName: _______ " + this.name +
-        "/nEmployer: _______" +this.employer +
-        "/nLocation: _______" + this.location +
-        "/nPosition Type: _______ " + this.positionType +
-        "/nCore Competency: _______ " + this.coreCompetency;
+        return "ID:  " + this.id +
+        "\nName:  " + this.name +
+        "\nEmployer: " +this.employer +
+        "\nLocation: " + this.location +
+        "\nPosition Type: " + this.positionType +
+        "\nCore Competency: " + this.coreCompetency;
     }
 }
